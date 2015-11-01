@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - RayTargetObj
+  - ImageUI
+  - TextUI
+  - WhitePanelUI
+  - Floor
+  - DeathZone
+  - Laddar
+  - Enemy
+  - Gate
+  - SavePoint
+  - RecoverItem
+  - LeftWall
+  - RightWall
+  - Wall
+  - Panch
+  - Shuriken
+  - PsychoBall
+  - PsychoZone
+  - ImpactSwitch
+  - Feather
+  - IceLance
+  - Lightning
+  - FireShield
+  - GravityResetZone
+  - GravityFloor
+  - GravityBlock
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Labbar
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

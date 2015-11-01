@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &189288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 404686}
+  - 212: {fileID: 21232426}
+  - 114: {fileID: 11432406}
+  m_Layer: 0
+  m_Name: PantomTempleMapDataControll
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &404686
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11432406
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fbc788f23800493b99f2e0631919926, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MapMaterial:
+  - {fileID: 111414, guid: ac5db3e9ba07c4d6dbe96e4152165326, type: 2}
+  - {fileID: 132000, guid: 56c763c7b9623493488457c89ff5fb7c, type: 2}
+  - {fileID: 132000, guid: 47f1054eb59804f2faec33cd5323ad96, type: 2}
+  - {fileID: 132000, guid: 27f82e2461e304b5ab29502255399e02, type: 2}
+  - {fileID: 132000, guid: 54b302f5fc74d4a6eb629b47e986cccc, type: 2}
+  - {fileID: 132000, guid: a64043063bcaf44d3acd7726b7b55512, type: 2}
+  - {fileID: 132000, guid: 9830f4c88530d4ef19d760831f430770, type: 2}
+  - {fileID: 132000, guid: f1b0ebe2296d34127971c906616b9231, type: 2}
+  - {fileID: 132000, guid: c8599edcd57d7450ca1a9aa67356d598, type: 2}
+  - {fileID: 132000, guid: 75106676b577b497483b7c5c289cf8a7, type: 2}
+  - {fileID: 132000, guid: 6a9ff9905ba374d5abe61df1662f4653, type: 2}
+  - {fileID: 132000, guid: bf45cc56672f74b24a8547de39578b6b, type: 2}
+  - {fileID: 132000, guid: 64fd35af918c3470fbe7c953489ffc18, type: 2}
+  - {fileID: 132000, guid: ca8b485934a684858a2c638144c04992, type: 2}
+  - {fileID: 132000, guid: 46e35a0c6da764632bf272f844b69755, type: 2}
+  - {fileID: 132000, guid: ef6e8215680ef457e8a206a1887a614e, type: 2}
+  - {fileID: 132000, guid: 26a1ec678890743fe813028572b43b5b, type: 2}
+  - {fileID: 132000, guid: d40892b3a8baf476e99cf95186791a5f, type: 2}
+  - {fileID: 132000, guid: 70ab47cdcc5a74cd19d13777595ed231, type: 2}
+  - {fileID: 132000, guid: eecccada7f9b94c4b842e28def61530a, type: 2}
+  - {fileID: 132000, guid: 92009ed7f551a4502ac5575e2921752a, type: 2}
+  - {fileID: 132000, guid: d4bc8a051e47f47cdb9429c557257dc1, type: 2}
+  - {fileID: 132000, guid: 67e61edfcf8804aeeb9fdc20127e2af0, type: 2}
+  - {fileID: 132000, guid: 83522e9a393da4d328bd3fd4c0720c9b, type: 2}
+  - {fileID: 132000, guid: 55980391206424b189f510d8e23f199a, type: 2}
+  - {fileID: 132000, guid: 992ac61ac22054e7498cf21df5993cf1, type: 2}
+  - {fileID: 132000, guid: 603713ea47c3048d29032103943a0a17, type: 2}
+  - {fileID: 132000, guid: 7bfdbc30f901240db90f3ce40599eecc, type: 2}
+  - {fileID: 132000, guid: 06f9d8ce5cf07481cbc7dd9ed2d13dc7, type: 2}
+  - {fileID: 132000, guid: 2baa6896cdc394f17bd7034dd5748f64, type: 2}
+  - {fileID: 132000, guid: 10a05b8a409ef4ff9b558524c7417ec1, type: 2}
+  - {fileID: 111414, guid: ccfbc1aa7fa3e49e88996ef419e41908, type: 2}
+  - {fileID: 108310, guid: f9aa284020f234b23b90cf1ced73fd8a, type: 2}
+  SetStartY: 0
+--- !u!212 &21232426
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189288}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 189288}
+  m_IsPrefabParent: 1
